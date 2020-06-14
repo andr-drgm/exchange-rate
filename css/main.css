@@ -1,0 +1,58 @@
+html{
+    /* background: #6495ed; */
+    background: url('https://media.giphy.com/media/xT0xeAqBxu7wd3Ie0o/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family:'Montserrat', sans-serif;;
+}
+
+h1{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-shadow: 0 10px 20px black, 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.navbar, .selector{
+    margin: auto;
+    margin-top: 0;
+    width: fit-content;
+    border: none;
+}
+
+
+
+.navbar a, #baseMenu, #baseMenu2{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: inline-block;
+    position: relative;
+    color: black;
+    background: white;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    padding: 14px 20px;
+    margin: 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: black;
+    color: white;
+}
+
+.content{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+    background: white;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 1250px){
+    .content{
+        width: 90%;
+    }
+}

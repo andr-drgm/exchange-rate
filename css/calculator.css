@@ -1,0 +1,25 @@
+input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: black;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 14px 20px;
+    border: none;
+    font-size: 25px;
+    width: 50%;
+}
+
+.inputBox{
+    margin: auto;
+  width: auto;
+}
+
+
+
+h2{
+    text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

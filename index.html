@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta name="theme-color" content="#4284ec" />
+    <title>Schimb valutar</title>
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="stylesheet" href="css/google-icons-proprieties.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <h1 style="text-align:center">Schimb Valutar</h1>
+    <div class="navbar">
+        <a href="index.html">Acasa</a>
+        <a href="rates.html">Curs valutar</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="graph.html">Evolutia</a>
+        <a href="Documentatie.pdf">Info</a>
+    </div>
+    <div class="selector">
+        <form id="baseSelector">
+            <select id="baseMenu" onChange="setBase(document.getElementById('baseMenu').selectedIndex)">
+            </select>
+        </form>
+    </div>
+    <div class="content">
+        <h2>Bun venit!</h2>
+        <p>Aici poți afla ultimele prețuri ale monedelor europene și ale celor internaționale.</p>
+        <br>
+        <p>Prețurile sunt mereu la zi și cât mai precise.</p>
+        <br>
+        <p>Butonul din mijloc selectează valuta principală. Alegerea este relevantă pentru toate acțiunile de pe site.
+        </p>
+    </div>
+    <script src="javascript/baseCurrency.js"></script>
+</body>
+
+</html>
