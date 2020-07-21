@@ -9,7 +9,7 @@ window.onload = function () {
 
     initializeGraphSelector();
 
-    document.getElementById("title").innerHTML = base + '/' + graphBase + " în ultimele 12 luni";
+    document.getElementById("title").innerHTML = base + '/' + graphBase + " in the last 12 mounths";
 
     data = getData('https://api.exchangeratesapi.io/latest?base=' + base);
 
