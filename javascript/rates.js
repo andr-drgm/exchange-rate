@@ -13,7 +13,7 @@ xmlhttp.onreadystatechange = function () {
         //O functie care returneaza data de ieri in format 2019-04-11
     }
 };
-xmlhttp.open("GET", url + 'latest?base=' + base, true);
+xmlhttp.open("GET", url + 'latest?base=' + base + '?access_key=c24c22f74aa83451ad28c8228750528c&format=1', true);
 xmlhttp.send();
 
 var compareValues = function (today) {
